@@ -3,11 +3,11 @@ Intrucciones:
 Instalar xampp y configurar puerto a 80
 Importar BD sql en phpmyadmin con el nombre de: bqef_2
 ==========================================================
-Clonar proyecto react del repositorio: https://github.com/OskrAxel/Segunda-presentacion.git
+Clonar proyecto react del repositorio: https://github.com/OskrAxel/Cuarta_presentacion.git
 Clonar repositorio en visual code
 =============================================================
 Ubicarse en la carpeta clonada y ejecutar en la terminal el comando: npm start
 =============================================================
 Usuarios para pruebas:
-perfil administrador de sistema: admin  /  admin123$
-perfil becario: ewe  /  123
+perfil administrador de sistema: admin  /  admin
+perfil becario: ocusi  /  ocusi

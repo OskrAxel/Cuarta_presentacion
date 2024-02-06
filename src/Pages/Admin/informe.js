@@ -38,15 +38,13 @@ function Informe() {
         <div className="col-md-5 p-2 ">
           <form
             className="card p-2 mt-2 border-secondary"
-            encType="multipart/form-data"
-          >
+            encType="multipart/form-data">
             <h5>React Imagen</h5>
             <textarea
               cols="4"
               placeholder="nom_usu"
               className="form-control"
-              onChange={(e) => setDescripcion(e.target.value)}
-            ></textarea>
+              onChange={(e) => setDescripcion(e.target.value)}></textarea>
             <div className="form-group">
               <label htmlFor="img">imagen</label>
               <input
@@ -59,8 +57,7 @@ function Informe() {
             </div>
             <button
               className="btn btn-outline-success btn-sm"
-              onClick={(e) => addImagen(e)}
-            >
+              onClick={(e) => addImagen(e)}>
               ADD
               {/* Add <FaCheckCircle /> */}
             </button>
@@ -79,8 +76,7 @@ function Informe() {
                 <div className="d-flex flex-row-reverse">
                   <button
                     className="btn btn-outline-danger btn-sm "
-                    onClick={() => deleteImagen(item.id_doc)}
-                  >
+                    onClick={() => deleteImagen(item.id_doc)}>
                     {/* <FaTrash /> */}
                   </button>
                 </div>
